@@ -38,8 +38,8 @@ public class TemanBaru extends AppCompatActivity {
                     nm = tNama.getText().toString();
                     tlp = tTelpon.getText().toString();
                     HashMap<String,String> qvalues = new HashMap<>();
-                    qvalues.put("nama",nm);
-                    qvalues.put("telpon",tlp);
+                    qvalues.put("Nama",nm);
+                    qvalues.put("Telpon",tlp);
                     controller.insertData(qvalues);
                     callHome();
                 }
